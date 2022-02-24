@@ -25,7 +25,7 @@ namespace xynnorum
                 .AddSingleton(_client)
                 .AddSingleton(_commands)
                 .BuildServiceProvider();
-            string token = "OTQyMzU1OTg4NDQxMzU0MzIw.YgjTZw.ZPHlii3tEptwhwVdtBI9vG6CLmA";
+            string token = "bot token"; // add ur bot token in here
 
             _client.Log += _client_Log;
 
